@@ -1,0 +1,43 @@
+.easy{
+    margin-top: 100px;
+}
+.easy__top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.easy__top p{
+    width: 512px;
+    text-align: center;
+}
+.easy__content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.easy__item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.easy__bottom{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.easy__bottom button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #02897A;
+    border-radius: 4px;
+    border: none;
+    padding: 15px 41px;
+    text-align: center;
+}

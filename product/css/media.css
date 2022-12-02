@@ -1,0 +1,104 @@
+@media (max-width:1220px) {
+    .hero__content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero__right h1 {
+        width: 100%;
+    }
+
+    .hero__left {
+        margin-top: 40px;
+    }
+}
+@media (max-width:1130px) {
+    .table__content{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .table__card{
+        width: 48%;
+    }
+    .media__content {
+        flex-wrap: wrap;
+    }
+    .container {
+        padding: 0 10px;
+    }
+
+    .media__box {
+        width: 46%;
+    }
+
+    .media__box img {
+        width: 100%;
+    }
+}
+@media (max-width:970px) {
+    .product__contnet {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .footer__content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .product__card {
+        width: 31%;
+    }
+
+    .header__list {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+}
+
+@media (max-width:680px) {
+    .hero__right h1 {
+        font-size: 30px;
+    }
+.table__card{
+    width: 98%;
+}
+.table__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.table__box h2{
+    font-size: 40px;
+}
+    .hero__left {
+        display: none;
+    }
+    .product__card {
+        width: 48%;
+    }
+
+    .media__top h2 {
+        color: red;
+        font-size: 50px;
+    }
+
+    .media__box {
+        width: 100%;
+    }
+    .footer__form form input{
+        width: 280px;
+    }
+}
+@media (max-width:480px){
+    .product__card{
+        width: 96%;
+    }
+    .product__card p{
+        width: 100%;
+    }
+}
